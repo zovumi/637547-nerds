@@ -2,11 +2,151 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+    <title>Студия Nёrds</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <nav class="nav-navigation">
+        <a class="main-header-logo">
+          <img src="img/index-logo.svg" width="150" height="100" alt="Логотип студии «Нёрдс»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="clients.html">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li><a href="cart.html">Корзина</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+        
+      <h1 class="visually-hidden">Студия «Нёрдс»</h1>
+        
+      <section class="slider">
+          <div class="slide">
+            <b>Долго, дорого, скрупулезно.</b>
+              <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+              <a href="studio.html">Узнать подробнее</a>
+          </div>
+          <div class="slide">
+            <b>Любим математику как никто другой.</b>
+              <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+              <a href="studio.html">Узнать подробнее</a>
+          </div>
+          <div class="slide">
+            <b>Только ночь, только хардкор.</b>
+              <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+              <a href="studio.html">Узнать подробнее</a>
+          </div>
+          <span class="control-block">●○○</span>
+      </section>
+        
+      <section class="products">
+        <h2 class="visually-hidden">Наши продукты</h2>
+        <ul class="products-list">
+          <li class="products-item">
+            <h3>Веб-сайты</h3>
+              <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+              <a href="catalog.html">Заказать</a>
+          </li>
+          <li class="products-item">
+            <h3>Приложения</h3>
+              <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a href="catalog.html">Заказать</a>
+          </li>
+          <li class="products-item">
+            <h3>Презентации</h3>
+              <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+              <a href="catalog.html">Заказать</a>
+          </li>
+        </ul>
+      </section>
+        
+      <section class="about-us">
+        <h2 class="visually-hidden">О нас</h2>
+          <p><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b><br>
+          Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+          превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <h4>Выполняем заказы на разработку:</h4>
+        <ul class="our-work">
+          <li class="our-work-item">
+            <p>Веб-сайтов любой сложности</p>
+          </li>
+          <li class="our-work-item">
+            <p>Мобильных приложений для iOS и Android</p>
+          </li>
+          <li class="our-work-item">
+            <p>Слайдшоу и видео для корпоративных презентаций</p>
+          </li>
+        </ul>
+        <a class="big-logo">
+          <img src="img/index-logo-2.svg" width="350" height="300" alt="Логотип студии «Нёрдс»">
+        </a>
+        <h4>C 2004 года Любим точность во всем:</h4>
+        <ul class="index">
+          <li class="index-item">
+            <p>146% Уровень самоотдачи</p>
+          </li>
+          <li class="index-item">
+            <p>100% Соблюдение сроков</p>
+          </li>
+          <li class="index-item">
+            <p>50% Минимальная предоплата</p>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="clients">
+        <h2 class="visually-hidden">Наши клиенты</h2>
+        <a class="clients-logo">
+          <img src="img/html-logo.svg" width="200" height="150" alt="Логотип «HTMLAcademy»">
+        </a>
+        <a class="clients-logo">
+          <img src="img/borodinski-logo.svg" width="200" height="150" alt="Логотип «Borodinski»">
+        </a>
+        <a class="clients-logo">
+          <img src="img/pink-logo.svg" width="200" height="150" alt="Логотип «Pink»">
+        </a>
+        <a class="clients-logo">
+          <img src="img/mishka-logo.svg" width="200" height="150" alt="Логотип «Mishka»">
+        </a>
+      </section>
+    </main>
+    
+    <footer class="main-footer">
+      <p class="footer-contacts">
+        <b>NЁRDS DESIGN STUDIO</b><br>
+        191186, Санкт-Петербург,<br>
+        ул. Б. Конюшенная, д. 19/8<br>
+        тел. +7 (812) 275-75-75</p>
+      <a href="write-us.html">Напишите нам</a>
+      <a class="map">
+        <img src="img/map.jpg" width="1680" height="700" alt="Карта">
+      </a>
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#">VK</a></li>
+          <li><a class="social-button" href="#">Facebook</a></li>
+          <li><a class="social-button" href="#">Instagram</a></li>
+        </ul>
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
+    
+    <section class="write-us">
+       <h2>Напишите нам</h2>
+       <p>Ваше имя:</p>
+       <!-- Здесь будет форма -->
+       <p>Ваш e-mail:</p>
+       <!-- Здесь будет форма -->
+       <p>Текст письма:</p>
+       <!-- Здесь будет форма -->
+       <button>Отправить</button>
+       <span class="modal-close">x</span>
+    </section>
   </body>
 </html>
